@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans:wght@400;700&family=Cherry+Bomb+One&display=swap');
+
+:root {
+    /* font-size */
+    --fs-36: 36px;
+    --fs-18: 18px;
+    --fs-22: 22px;
+    --fs-24: 24px;
+    --fs-28: 28px;
+    --fs-35: 35px;
+    --fs-48: 48px;
+    --fs-50: 50px;
+    --fs-60: 60px;
+    --fs-70: 70px;
+    /* font-weight */
+    --fw-400: 400;
+    --fw-500: 500;
+    --fw-600: 600;
+    --fw-700: 700;
+}
+
+.ff-BalsamiqSans {
+    font-family: 'Balsamiq Sans', sans-serif;
+}
+
+.ff-Cherry-BombOne {
+    font-family: 'Cherry Bomb One', sans-serif;
+}
+
+.fs-36 {
+    font-size: var(--fs-36);
+}
+
+.fs-18 {
+    font-size: var(--fs-18);
+}
+
+.fs-22 {
+    font-size: var(--fs-22);
+}
+
+.fs-24 {
+    font-size: var(--fs-24);
+}
+
+.fs-28 {
+    font-size: var(--fs-28);
+}
+
+.fs-35 {
+    font-size: var(--fs-35);
+}
+
+.fs-48 {
+    font-size: var(--fs-48);
+}
+
+.fs-50 {
+    font-size: var(--fs-50);
+}
+
+.fs-60 {
+    font-size: var(--fs-60);
+}
+
+.fs-70 {
+    font-size: var(--fs-70);
+}
+
+
+
+
+
+.fw-400 {
+    font-weight: var(--fw-400);
+}
+
+.fw-500 {
+    font-weight: var(--fw-500);
+}
+
+.fw-600 {
+    font-weight: var(--fw-600);
+}
+
+.fw-700 {
+    font-weight: var(--fw-700);
+}
+
+@media (max-width:768px) {
+    .position-absolute1 {
+        position: absolute;
+        bottom: -11px;
+        left: -11%;
+        width: 50%;
+    }
+
+}
+@media (max-width:576px) {
+    .position-absolute1 {
+        position: absolute;
+        bottom: -11px;
+        left: -11%;
+        width: 38%;
+    }
+}

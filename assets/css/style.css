@@ -1,0 +1,106 @@
+@import url(root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    /* list-style-type: none; */
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.custom-container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.mw-655 {
+    max-width: 655px;
+}
+
+.bg-green {
+    background: #9ACC44;
+}
+
+.card1 {
+    padding: 20px;
+    width: 100%;
+    max-width: 637px;
+    height: 293px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.10);
+}
+
+.opacity-30 {
+    opacity: 30%;
+}
+
+.card2 {
+    padding: 20px;
+    width: 100%;
+    max-width: 484px;
+    height: 293px;
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.60);
+    background: rgba(255, 255, 255, 0.10);
+
+}
+
+.card2:hover {
+    background-color: #5BA72B;
+}
+
+.card1:hover {
+
+    background-color: #5BA72B;
+}
+
+.card1:hover svg path {
+    fill: #FFF;
+    opacity: 100%;
+}
+
+.card2:hover svg path {
+    fill: #FFF;
+    opacity: 100%;
+}
+
+
+
+.card3 {
+
+    border-radius: 19px;
+    border: 7px solid #FFF;
+    background: #5BA72B;
+    display: inline-flex;
+    padding: 75px 65px;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.position-absolute1 {
+    position: absolute;
+    bottom: -20px;
+    left: -11%;
+}
+
+.position-ab {
+    position: absolute;
+    left: -8%;
+    top: -5%;
+}
+
+.p-absolute {
+    position: absolute;
+    right: -7%;
+    top: 0;
+}
+.position-absolute3{
+    position: absolute;
+    right: 6%;
+    top: 5%;
+}
